@@ -4,6 +4,8 @@ recruitment project for internship
 
 - to launch app on docker run 'docker compose up' in projects root directory
   (you will need docker running on your machine)
+  - note: there is no image for api gateway like Nginx or Apache
+  
 - to launch app lockaly you will need a Python enviroment with dependancies:
   - flask
   - requests
