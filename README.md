@@ -10,13 +10,22 @@ recruitment project for internship
   - flask
   - requests
 
-- sample requests to API:
+- sample requests to API (response format is json):
   - http://localhost:5000/average_exchange_rate?date=2020-01-02&currency_code=USD
-  - ![image](https://user-images.githubusercontent.com/105457413/234606512-5486cdcd-8eb8-462a-8d71-50218b74b6bb.png)
+  {
+    "average_exchange_rate": 3.8
+  }
 
   - http://localhost:5000/max_min_average?currency_code=USD&n=10
-  - ![image](https://user-images.githubusercontent.com/105457413/234606677-a79d5888-ceb9-4ff6-b459-beb0859af6dd.png)
+  {
+    "max_average": 4.2261,
+    "max_average_date": "2023-04-17",
+    "min_average": 4.1557,
+    "min_average_date": "2023-04-26"
+  }
 
   - http://localhost:5000/major_difference?currency_code=USD&n=10
-  - ![image](https://user-images.githubusercontent.com/105457413/234606758-c73c1d76-596e-49db-be94-c8371281fec6.png)
+  {
+    "major_difference": 0.08499999999999996
+  }
 
