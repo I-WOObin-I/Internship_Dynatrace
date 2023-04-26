@@ -1,5 +1,4 @@
 # Internship_Dynatrace
-in progress
 
 recruitment project for internship
 
